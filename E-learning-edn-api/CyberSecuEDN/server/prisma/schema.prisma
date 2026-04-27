@@ -1,0 +1,61 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  password  String
+  role      String   // 'admin' | 'user' | 'userTest'
+  createdAt DateTime @default(now())
+}
+
+model Formation {
+  id       Int     @id @default(autoincrement())
+  titre    String
+  isActive Boolean @default(false)
+}
+
+model Module {
+  id           Int     @id @default(autoincrement())
+  id_formation Int
+  titre        String
+  sousTitre    String  @default("")
+  texte        String  @default("")
+  video        String?
+  image        String?
+  order        Int     @default(0)
+}
+
+model Quizz {
+  id             Int     @id @default(autoincrement())
+  id_formation   Int
+  titre          String
+  contenu        Json
+  passThreshold  Int     @default(80)
+}
+
+model QuizAttempt {
+  id          Int      @id @default(autoincrement())
+  userId      Int
+  quizId      Int
+  formationId Int
+  score       Int      // percentage 0-100
+  passed      Boolean
+  createdAt   DateTime @default(now())
+}
+
+model UserProgress {
+  id          Int      @id @default(autoincrement())
+  userId      Int
+  moduleId    Int
+  formationId Int
+  viewedAt    DateTime @default(now())
+
+  @@unique([userId, moduleId])
+}

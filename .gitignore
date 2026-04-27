@@ -1,0 +1,35 @@
+E-learning-edn-api/CyberSecuEDN/server/.env
+E-learning-edn-api/CyberSecuEDN/server/node_modules
+E-learning-edn-api/CyberSecuEDN/server/package-lock.json
+E-learning-edn-api/CyberSecuEDN/server/prisma/migrations
+
+# Logs
+e-learning-edn/logs
+e-learning-edn/*.log
+e-learning-edn/npm-debug.log*
+e-learning-edn/yarn-debug.log*
+e-learning-edn/yarn-error.log*
+e-learning-edn/pnpm-debug.log*
+e-learning-edn/lerna-debug.log*
+
+e-learning-edn/node_modules
+e-learning-edn/dist
+e-learning-edn/dist-ssr
+e-learning-edn/*.local
+
+# Editor directories and files
+e-learning-edn/.vscode/*
+e-learning-edn/!.vscode/extensions.json
+e-learning-edn/.idea
+e-learning-edn/.DS_Store
+e-learning-edn/*.suo
+e-learning-edn/*.ntvs*
+e-learning-edn/*.njsproj
+e-learning-edn/*.sln
+e-learning-edn/*.sw?
+
+e-learning-edn/.env
+e-learning-edn/.env.local
+e-learning-edn/.env.development.local
+e-learning-edn/.env.test.local
+e-learning-edn/.env.production.local

@@ -1,0 +1,615 @@
+[
+    {
+        "id": 1,
+        "title": "Cybersécurité",
+        "modules": [
+            {
+                "id": 1,
+                "title": "Mails frauduleux",
+                "href": "/formation/1/module/1",
+                "urlIllustration": "https://www.youtube.com/embed/hXyoRm1kkhE?si=3oufoaU3_AoTj-P3",
+                "content": [
+                    {
+                        "id": 1,
+                        "subtitle": "La cybersécurité face aux mails frauduleux",
+                        "text": "La cybersécurité face aux mails frauduleux.\nLa cybersécurité regroupe l’ensemble des pratiques, outils et réflexes visant à protéger les systèmes informatiques, les données personnelles et professionnelles contre les attaques numériques. Parmi les menaces les plus courantes figure l’envoi de mails frauduleux, aussi appelés phishing ou hameçonnage.\n\nQu’est-ce qu’un mail frauduleux ?\nUn mail frauduleux est un message électronique envoyé dans le but de tromper le destinataire afin d’obtenir des informations sensibles (identifiants, mots de passe, données bancaires…) ou d’inciter à effectuer une action risquée (cliquer sur un lien piégé, ouvrir une pièce jointe infectée, réaliser un virement…)."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Phishing",
+                "href": "/formation/1/module/2",
+                "urlIllustration": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+                "content": [
+                    {
+                        "id": 1,
+                        "subtitle": "Identifier les arnaques",
+                        "text": "Le phishing est une technique de fraude visant à tromper les utilisateurs pour obtenir des informations confidentielles..."
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Bonnes pratiques",
+                "href": "/formation/1/module/3",
+                "urlIllustration": "https://www.youtube.com/embed/3JZ_D3ELwOQ",
+                "content": [
+                    {
+                        "id": 1,
+                        "subtitle": "Sécuriser ses comptes",
+                        "text": "Ce module couvre les règles essentielles pour sécuriser vos comptes et vos données..."
+                    }
+                ]
+            }
+        ],
+        "quizzes": [
+            {
+                "id": 1,
+                "title": "Quiz Cybersécurité",
+                "numberOfQuestions": 2,
+                "questions": [
+                    {
+                        "id": 1,
+                        "question": "Qu’est-ce qu’un mail frauduleux ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "Un mail pour voler des informations",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "Un mail d’un ami",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": 3,
+                                "text": "Un mail automatique d’entreprise",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "question": "Quel terme décrit le phishing ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "Technique pour tromper et obtenir des infos",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "Filtrage des spams",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "question": "Quelle est une bonne pratique pour les mots de passe ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "Utiliser un mot de passe unique et long",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "Réutiliser le même pour tous les comptes",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": 3,
+                                "text": "Mettre 123456 pour se souvenir facilement",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "question": "Qu’est-ce qu’un mail de phishing peut contenir ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "Lien vers un faux site",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "Vidéo amusante",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": 3,
+                                "text": "Message interne officiel",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "question": "Qu’est-ce qu’un virus informatique ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "Programme qui endommage les données",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "Programme de sécurité",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "question": "Quelle solution pour sécuriser son compte ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "Activer l’authentification à deux facteurs",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "Partager le mot de passe",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 7,
+                        "question": "Quel type d’attaque est le phishing ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "Attaque sociale",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "Attaque physique",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 8,
+                        "question": "Comment reconnaître un mail frauduleux ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "Vérifier l’expéditeur et les liens",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "Cliquer sur tous les liens",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 9,
+                        "question": "Que signifie malware ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "Logiciel malveillant",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "Logiciel utile",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "question": "Quel est un bon réflexe pour protéger ses données ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "Ne pas ouvrir les fichiers suspects",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "Cliquer sur tous les fichiers",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 11,
+                        "question": "Quel protocole chiffre les emails ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "TLS",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "HTTP",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 12,
+                        "question": "Que faire si un mail semble suspect ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "Le signaler à l’administrateur",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "Cliquer sur tous les liens",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 13,
+                        "question": "Comment éviter les arnaques en ligne ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "Ne jamais partager ses identifiants",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "Répondre à tous les mails",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 14,
+                        "question": "Qu’est-ce qu’un ransomware ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "Logiciel qui bloque vos fichiers",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "Logiciel antivirus",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 15,
+                        "question": "Comment se protéger contre le phishing ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "Vérifier les liens et expéditeurs",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "Cliquer sur tous les liens",
+                                "isCorrect": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Dév Web",
+        "modules": [
+            {
+                "id": 1,
+                "title": "HTML/CSS",
+                "href": "/formation/2/module/1",
+                "urlIllustration": "https://www.youtube.com/embed/2Vv-BfVoq4g",
+                "content": [
+                    {
+                        "id": 1,
+                        "subtitle": "Bases du web",
+                        "text": "Ce module présente les bases du développement web..."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "CSS Avancé",
+                "href": "/formation/2/module/2",
+                "urlIllustration": "https://www.youtube.com/embed/kJQP7kiw5Fk",
+                "content": [
+                    {
+                        "id": 1,
+                        "subtitle": "Styliser un site",
+                        "text": "Dans ce module, nous allons apprendre à styliser un site web avec CSS..."
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "JS Interactif",
+                "href": "/formation/2/module/3",
+                "urlIllustration": "https://www.youtube.com/embed/fRh_vgS2dFE",
+                "content": [
+                    {
+                        "id": 1,
+                        "subtitle": "Interactivité web",
+                        "text": "Ce module couvre les bases de JavaScript pour rendre vos pages web interactives..."
+                    }
+                ]
+            }
+        ],
+        "quizzes": [
+            {
+                "id": 1,
+                "title": "Quiz Dév Web",
+                "numberOfQuestions": 10,
+                "questions": [
+                    {
+                        "id": 1,
+                        "question": "À quoi sert le HTML ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "Structurer le contenu d'une page web",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "Styliser la page",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "question": "À quoi sert le CSS ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "Styliser la page",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "Structurer le contenu",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "question": "Quel langage rend la page interactive ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "JavaScript",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "CSS",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": 3,
+                                "text": "HTML",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "question": "Comment ajouter un lien dans HTML ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "<a href='url'>Texte</a>",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "<link>Texte</link>",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "question": "Quelle balise HTML pour un paragraphe ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "<p>",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "<h1>",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "question": "Quel attribut CSS change la couleur du texte ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "color",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "background",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 7,
+                        "question": "Comment créer un conteneur flexible ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "display: flex;",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "display: block;",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 8,
+                        "question": "Quel événement JavaScript détecte un clic ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "onclick",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "onhover",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 9,
+                        "question": "Comment sélectionner un élément par son ID en JS ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "document.getElementById('id')",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "document.querySelector('.id')",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "question": "Comment écrire un commentaire en JS ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "// Commentaire",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "/* Commentaire */",
+                                "isCorrect": true
+                            }
+                        ]
+                    },
+                    {
+                        "id": 11,
+                        "question": "Quelle balise CSS applique le style interne ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "<style>",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "<script>",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 12,
+                        "question": "Comment rendre un bouton cliquable ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "<button>Cliquer</button>",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "<div>Cliquer</div>",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 13,
+                        "question": "Quel attribut HTML définit l’image source ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "src",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "href",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 14,
+                        "question": "Quelle propriété CSS change la taille du texte ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "font-size",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "text-size",
+                                "isCorrect": false
+                            }
+                        ]
+                    },
+                    {
+                        "id": 15,
+                        "question": "Quel mot-clé JS déclare une variable ?",
+                        "answers": [
+                            {
+                                "id": 1,
+                                "text": "let",
+                                "isCorrect": true
+                            },
+                            {
+                                "id": 2,
+                                "text": "dim",
+                                "isCorrect": false
+                            },
+                            {
+                                "id": 3,
+                                "text": "var",
+                                "isCorrect": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
